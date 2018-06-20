@@ -1,0 +1,13 @@
+{
+  "name": "learn-grid",
+  "version": "1.0.0",
+  "description": "a starter repo for learning CSS Grid",
+  "main": "index.js",
+  "scripts": {
+    "start": "run-script-os",
+    "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 5555 --browser \"C:\\Program Files\\Firefox\\firefox.exe\"",
+    "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 5555 --browser 'Firefox'"
+  },
+  "author": "Leta Keane",
+  "license": "ISC"
+}
