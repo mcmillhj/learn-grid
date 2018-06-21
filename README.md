@@ -53,6 +53,8 @@ If we zoom in, we can see that there are a couple different types of lines here:
 
 We'll get into what these indicate later - for now, note that the solid line is the edge of the grid in its entirety.
 
+We also have these numbers, as well, which describe the lines surrounding our grid items.
+
 ## Templating
 
 
