@@ -16,7 +16,7 @@ Like flexbox, grid makes use of containers and items.
 
 You'll notice in our initial setup, there is a div (with a class of `'container'`), that encompasses 26 child div elements (each with a shared class of `'item'` as well as a unique class so we can target individual elements if necessary).
 
-** ﾟ・:\*☆ TRY IT OUT! ☆\*:・ﾟ**
+#### ﾟ・:\*☆ TRY IT OUT! ☆\*:・ﾟ
 
 To make a container a grid, we make use of the `display` property, and set its value to `grid`.
 
