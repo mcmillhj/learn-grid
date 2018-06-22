@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "a starter repo for learning CSS Grid",
   "main": "index.js",
+  "scripts": {
+    "start": "open -a Firefox tutorial/index.html"
+  },
   "author": "Leta Keane",
   "license": "ISC"
 }
