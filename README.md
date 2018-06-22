@@ -8,8 +8,8 @@ _Note: you'll need node.js on your computer_
 
 1. [Download Firefox](https://www.mozilla.org/en-US/firefox/new/) (we'll be using Firefox's CSS grid dev tools)
 2. Clone down the repo: `git clone https://github.com/letakeane/learn-grid.git`
-3. Install the dependencies: `npm install`
-4. To fire up the server, run `npm start`
+3. To view your code, run `open -a Firefox tutorial/index.html`
+4. After making changes, simply `cmd + r` in your browser to see your updates.
 
 # Grid Basics
 
