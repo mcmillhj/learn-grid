@@ -1,9 +1,13 @@
 html {
   box-sizing: border-box;
-  font-family: 'Oswald', Impact, sans-serif;
+  font-family: "Oswald", Impact, sans-serif;
   font-size: 50px;
   background: #efffff;
-  margin: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
 }
 
 *,
@@ -16,9 +20,35 @@ html {
   display: grid;
   justify-content: center;
   align-items: center;
-  border: 5px solid #7affd9;
+  border: 3px solid cyan;
 }
 
 .container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 1fr 4fr 1fr;
+  grid-template-areas:
+    "banner banner banner banner banner banner"
+    "sidebar main main main main main"
+    "sidebar footer footer footer footer footer";
+}
 
+.banner {
+  grid-area: banner;
+  background: rebeccapurple;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background: mistyrose;
+}
+
+.main {
+  grid-area: main;
+  background: lightcoral;
+}
+
+.footer {
+  grid-area: footer;
+  background: palevioletred;
 }
